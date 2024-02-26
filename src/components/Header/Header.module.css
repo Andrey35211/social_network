@@ -1,6 +1,28 @@
 .header {
-    grid-area: h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    position: fixed;
+    width: 100%;
     background-color: #c2e5d0;
+    top: 0px;
+}
+
+.logo {
+
+    height: 30px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 67%;
+}
+
+.headerContent p {
+    font-family: "Montserrat Alternates SemiBold";
 }
 
 .header img {

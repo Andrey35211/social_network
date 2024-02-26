@@ -1,3 +1,18 @@
 .descriptionBlock {
     padding: 10px;
+    font-family: Montserrat;
+}
+
+.profilePhoto {
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+}
+
+.profileInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
 }

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import Header from "./components/Header/Header";
@@ -17,8 +16,9 @@ const App = (props) => {
 
     return (
         <BrowserRouter>
+            <Header/>
             <div className='app-wrapper'>
-                <Header/>
+
                 <Navbar/>
 
                 <div className="app-wrapper-content">

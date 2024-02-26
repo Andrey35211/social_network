@@ -4,14 +4,15 @@ import s from "./ProfileInfo.module.css"
 
 const ProfileInfo = () => {
     return (
-        <div>
+        <div className={s.profileInfo}>
             <div>
                 <img
-                    src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROMtQZfmiU68G7fkPNeGOjnobh2BbjJO4w3Q&usqp=CAU'
+                    className={s.profilePhoto}
+                    src='profilePhoto.png'
                     alt="avatar"></img>
             </div>
             <div className={s.descriptionBlock}>
-                ava+description
+                <p>Андрей Сергиенко</p>
             </div>
         </div>
     )
